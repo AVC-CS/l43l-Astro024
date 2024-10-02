@@ -1,9 +1,12 @@
 def main():
-    total = 0
+    #total = 0
 
     numbers = [0] * 5
     for i in range(len(numbers)):
         numbers[i] = int(input('Enter a value: '))
+        print(numbers)
+        total = sum(numbers)
+        print(total)
 
     """
     ########################################
